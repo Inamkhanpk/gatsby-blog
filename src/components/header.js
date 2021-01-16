@@ -24,8 +24,6 @@ const Header = ({ siteTitle }) => {
     <div>
     <AppBar position="static">
         <Toolbar>
-          
-          
           <Link to="/" className={classes.root}>
           {siteTitle}
         </Link>
